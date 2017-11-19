@@ -1,0 +1,23 @@
+<suite name="Suite" parallel="tests" thread-count="3" >
+
+    <test name="search-chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.eliasnogueira.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="search-firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.eliasnogueira.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="search-ie">
+        <parameter name="browser" value="ie-11"/>
+        <classes>
+            <class name="com.eliasnogueira.SearchTest"/>
+        </classes>
+    </test>
+</suite>
