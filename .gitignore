@@ -8,3 +8,6 @@
 # Maven
 log/
 target/
+
+# Project
+*.mp4
